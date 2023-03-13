@@ -1,5 +1,5 @@
 .quote-container{
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .quote-highlight{
@@ -8,4 +8,8 @@
 
 .quote-author{
     font-size: 80px;
+}
+
+.container {
+    display: inline-block;
 }

@@ -1,13 +1,15 @@
 import React from 'react'
+import { ClimbingBoxLoader } from 'react-spinners';
 import './PreLoading.css';
 
-const PreLoading = () => {
+const PreLoading = (loading : boolean) => {
   return (
-    <div>
+    <div className='container'>
         <div className='quote-container'>
-        <span className="quote-highlight"><b>Refuse</b><br/></span> to be Content<br/>
+        Refuse to be Content<br/>
         -Alfred V. Aho
     </div>
+    <ClimbingBoxLoader size={30} color={'#36454F'} loading={loading}/>
  </div>
   )
 }
