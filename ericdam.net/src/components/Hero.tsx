@@ -1,22 +1,24 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './Hero.css';
 import Image from 'rc-image';
+import hero_image from '/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/eric_1.png';
 
 const Hero = () => {
+
+const onLoad = () => {
+
+}
   return (
-    <div>
-    {/* <div className='quote-container'>
-       <span className="hero-quote">Refuse<br/></span> to be Content<br/>
-       -Alfred V. Aho
-    </div> */}
-    <div className='quote-container'>
-        Hi I'm <span className='hero-quote'><br />Eric</span>
+    <div className="container">
+
+    <div className='hero-container'>
+        <b>Hi I'm <span className='hero-name'>Eric</span></b>
     </div>
     <div>
-    <Image />
+        <Image className='hero_image' src={hero_image}/>
     </div>
     </div>
   )
 }
 
-export default Hero
+export default Hero;

@@ -1,12 +1,31 @@
 
-.quote-container{
-display: block;
-text-align: left;
-list-style: none;
-font-size: 60px;
-justify-content:space-around;
+.hero-container{
+    display: inline-block;
+    font-size: 60px;
+    vertical-align:bottom;
+    text-align: left;
+    justify-content:space-around;
+    vertical-align: bottom;
+    margin-top: 20%;
+}
 
+.hero-name{
+    position: relative;
+    font-size: 200px;
+    display:block;
+    right: 2.5%;
 }
-.hero-quote{
-    font-size: 200px;k
+
+.hero_image{
+    position: relative;
+    height: 500px;
+    margin-top: 10%;
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+
