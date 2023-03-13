@@ -1,0 +1,12 @@
+
+.quote-container{
+display: block;
+text-align: left;
+list-style: none;
+font-size: 60px;
+justify-content:space-around;
+
+}
+.hero-quote{
+    font-size: 200px;k
+}
