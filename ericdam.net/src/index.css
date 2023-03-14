@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Montserrat";   /*Can be any text*/
+  src: url("/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+}

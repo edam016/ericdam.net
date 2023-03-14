@@ -29,6 +29,11 @@ const items: MenuProps['items'] = [
       ),
       key: 'github',
     },
+    {
+        label: 'Leetcode Adventures',
+        key: 'leetcode',
+        icon: <SettingOutlined />,
+      },
   ];
   
 const Navbar = () => {
@@ -40,7 +45,7 @@ const Navbar = () => {
   }
 
   return (
-    <div><Menu style={{ margin: 2, width: '100%' }} className='navbar' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} /></div>
+    <div><Menu className='navbar' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} /></div>
   )
 }
 

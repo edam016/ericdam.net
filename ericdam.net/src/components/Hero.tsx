@@ -9,14 +9,16 @@ const onLoad = () => {
 
 }
   return (
-    <div className="container">
-
-    <div className='hero-container'>
-        <b>Hi I'm <span className='hero-name'>Eric</span></b>
-    </div>
-    <div>
-        <Image className='hero_image' src={hero_image}/>
-    </div>
+    <div className="hero-container">
+        <span className='hero-intro-text'>
+            Hi my name is
+        </span>
+        <span className="hero-name-text">
+            Eric Dam
+            </span>
+        <div>
+        {/* <Image className='hero_image' src={hero_image} alt="image"/> */}
+        </div>
     </div>
   )
 }
