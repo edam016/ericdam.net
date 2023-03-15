@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() =>{
-    setLoading(true);
+    setLoading(false);
     setTimeout(() => {
       setLoading(false);
     }, 3000);

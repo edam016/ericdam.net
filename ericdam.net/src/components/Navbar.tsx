@@ -3,8 +3,9 @@ import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/ico
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import './Navbar.css';
+import NavItem from './NavItem';
 
-const items: MenuProps['items'] = [
+const NavItems = [
     {
       label: 'About Me',
       key: 'about',
@@ -38,15 +39,15 @@ const items: MenuProps['items'] = [
   
 const Navbar = () => {
 
-    const [current, setCurrent] = useState('mail');
-    const onClick: MenuProps['onClick'] = (e) => {
-    console.log('click ', e);
-    setCurrent(e.key);
-  }
+    const [current, setCurrent] = useState('none');
 
-  return (
-    <div>Nav is here</div>
-  )
+    return (
+        <div>
+        {NavItems.map((item, i) => (
+            <NavItem item={item}/>
+        ))}
+        </div>
+    )
 }
 
 export default Navbar;
