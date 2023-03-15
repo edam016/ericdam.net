@@ -16,3 +16,9 @@ code {
   font-family: "Montserrat";   /*Can be any text*/
   src: url("/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
 }
+
+
+@font-face {
+  font-family: "Apercu";   /*Can be any text*/
+  src: url("/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/fonts/Apercu/Apercu/Apercu Regular.otf") format("opentype");
+}

@@ -45,7 +45,7 @@ const Navbar = () => {
   }
 
   return (
-    <div><Menu className='navbar' onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} /></div>
+    <div>Nav is here</div>
   )
 }
 

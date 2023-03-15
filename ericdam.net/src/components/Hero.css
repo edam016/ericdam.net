@@ -8,15 +8,19 @@
 }
 
 .hero-intro-text{
-    font-size: 40px;
-    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    color: #aeeef8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-name-text{
     font-size: 80px;
     display: block;
-    font-family: Montserrat;
-    
+    font-family: Apercu;
+}
+
+.hero-blurb-text{
+    color: #9caff6;
 }
 
 .hero_image{

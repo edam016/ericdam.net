@@ -10,12 +10,15 @@ const onLoad = () => {
 }
   return (
     <div className="hero-container">
-        <span className='hero-intro-text'>
+        <div className='hero-intro-text'>
             Hi my name is
-        </span>
-        <span className="hero-name-text">
-            Eric Dam
-            </span>
+        </div>
+        <div className="hero-name-text">
+            <b>Eric Dam.</b>
+            </div>
+            <div className ="hero-blurb-text">
+          I'm a self-improver, learner, <br /> but most importantly a <span style={{ color: '#e3fb3c'}}>do-er</span>
+          </div>
         <div>
         {/* <Image className='hero_image' src={hero_image} alt="image"/> */}
         </div>
