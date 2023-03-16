@@ -6,4 +6,4 @@ const NavItem = ({item}) => {
   )
 }
 
-export default NavItem
+export default NavItem;

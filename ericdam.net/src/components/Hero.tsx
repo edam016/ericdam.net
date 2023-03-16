@@ -3,11 +3,8 @@ import './Hero.css';
 import Image from 'rc-image';
 import hero_image from '/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/eric_1.png';
 
-const Hero = () => {
+export const Hero = () => {
 
-const onLoad = () => {
-
-}
   return (
     <div className="hero-container">
         <div className='hero-intro-text'>

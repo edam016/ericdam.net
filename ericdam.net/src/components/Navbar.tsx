@@ -5,7 +5,7 @@ import { Menu } from 'antd';
 import './Navbar.css';
 import NavItem from './NavItem';
 
-const NavItems = [
+const navItems = [
     {
       label: 'About Me',
       key: 'about',
@@ -31,7 +31,7 @@ const NavItems = [
       key: 'github',
     },
     {
-        label: 'Leetcode Adventures',
+        label: 'LC',
         key: 'leetcode',
         icon: <SettingOutlined />,
       },
@@ -43,8 +43,13 @@ const Navbar = () => {
 
     return (
         <div>
-        {NavItems.map((item, i) => (
-            <NavItem item={item}/>
+        {navItems.map((item, i) => (
+          <div>
+            <NavItem item={item.label}/>
+            <div key={i}>
+              {item.label}
+            </div>
+            </div>
         ))}
         </div>
     )
