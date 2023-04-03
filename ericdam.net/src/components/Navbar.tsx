@@ -31,6 +31,11 @@ const navItems = [
         key: 'leetcode',
         icon: <SettingOutlined />,
       },
+      {
+        label: 'Youtube',
+        key: 'youtube',
+        icon: <SettingOutlined />,
+      },
   ];
   
 const Navbar = () => {
