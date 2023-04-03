@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavItem = ({item}) => {
   return (
-    <div>{item}</div>
+    <div className="item">{item}</div>
   )
 }
 

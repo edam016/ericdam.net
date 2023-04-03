@@ -17,7 +17,6 @@ export const Hero = () => {
           I'm a self-improver, learner and many other things, <br /> but most importantly a <span style={{ color: '#FFFF'}}><mark> do-er. </mark></span>
           </div>
         <div>
-        {/* <Image className='hero_image' src={hero_image} alt="image"/> */}
         </div>
     </div>
   )

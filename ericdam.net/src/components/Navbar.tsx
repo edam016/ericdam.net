@@ -23,11 +23,7 @@ const navItems = [
     },
     {
       icon: <SettingOutlined />,
-      label: (
-        <a href="https://github/edam016" target="_blank" rel="noopener noreferrer">
-          Github
-        </a>
-      ),
+      label: 'Github',
       key: 'github',
     },
     {
@@ -42,13 +38,10 @@ const Navbar = () => {
     const [current, setCurrent] = useState('none');
 
     return (
-        <div>
+        <div className='navbar'>
         {navItems.map((item, i) => (
-          <div>
-            <NavItem item={item.label}/>
-            <div key={i}>
-              {item.label}
-            </div>
+          <div className="item">
+            <NavItem  item={item.label}/>
             </div>
         ))}
         </div>

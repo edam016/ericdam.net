@@ -1,7 +1,13 @@
 .navbar{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     top: 0;
     right: 0;
-    width: 100%;
+    font-size: 20px;
     text-align: right;
+}
+
+.item{
+    padding: 10px;
 }
