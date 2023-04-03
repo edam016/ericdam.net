@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './Hero.css';
 import Image from 'rc-image';
-import hero_image from '/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/eric_1.png';
 
 export const Hero = () => {
 

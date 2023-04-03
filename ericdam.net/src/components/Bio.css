@@ -1,0 +1,11 @@
+.aboutme{
+    text-align: left;
+    padding: 0px 20px 0px 100px;
+    font-family: Apercu;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
