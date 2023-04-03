@@ -9,7 +9,7 @@
 
 .hero-intro-text{
     font-size: 40px;
-    color: #aeeef8;
+    color: #B8B8B8;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .hero-blurb-text{
-    color: #9caff6;
+    color: 	#404040;
 }
 
 .hero_image{
@@ -30,4 +30,11 @@
     margin-top: 10%;
 }
 
-
+mark {
+    background-color: #404040;
+    color: #FFFF;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-left:10px;
+    padding-right:8px;
+  }
