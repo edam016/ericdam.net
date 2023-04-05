@@ -9,8 +9,8 @@ const Homepage = () => {
     <div>
         <Navbar />
         <Hero/>
-        <Aboutme />
-        <Work />
+        {/* <Aboutme />
+        <Work /> */}
     </div>
   )
 }
