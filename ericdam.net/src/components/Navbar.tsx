@@ -7,12 +7,12 @@ import NavItem from './NavItem.tsx';
 
 const navItems = [
     {
-      label: 'About Me',
+      label: 'About',
       key: 'about',
       icon: <MailOutlined />,
     },
     {
-      label: 'Work Experience',
+      label: 'Work',
       key: 'work',
       icon: <AppstoreOutlined />,
     },
@@ -32,8 +32,8 @@ const navItems = [
         icon: <SettingOutlined />,
       },
       {
-        label: 'Youtube',
-        key: 'youtube',
+        label: 'Blog',
+        key: 'blog',
         icon: <SettingOutlined />,
       },
   ];

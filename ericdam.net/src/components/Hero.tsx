@@ -12,9 +12,9 @@ export const Hero = () => {
         <div className="hero-name-text">
             <b>Eric Dam.</b>
             </div>
-            <div className ="hero-blurb-text">
+            {/* <div className ="hero-blurb-text">
           I'm a self-improver, learner and many other things, <br /> but most importantly a <span style={{ color: '#FFFF'}}><mark> do-er. </mark></span>
-          </div>
+          </div> */}
         <div>
         </div>
     </div>
