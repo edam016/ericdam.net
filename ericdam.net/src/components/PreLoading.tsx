@@ -7,9 +7,11 @@ const PreLoading = (loading : boolean) => {
     <div className='container'>
         <div className='quote-container'>
         Refuse to be Content<br/>
-        -Alfred V. Aho
+        <span style={{ fontSize: '30px'}}>-Alfred V. Aho</span>
     </div>
+    <div className="loader">
     <ClimbingBoxLoader size={30} color={'#36454F'} loading={loading}/>
+    </div>
  </div>
   )
 }
