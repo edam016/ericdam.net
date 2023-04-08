@@ -7,7 +7,7 @@
 @keyframes fade {
     from {
         opacity: 0;
-        transform: translateY(150px);
+        transform: translateY(40px);
       }
       to {
         opacity: 1;
