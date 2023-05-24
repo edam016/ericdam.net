@@ -13,6 +13,7 @@ const Homepage = () => {
         <Hero/>
         {/* <Aboutme />
         <Work /> */}
+        <div></div>
         </div>
     </div>
   )
