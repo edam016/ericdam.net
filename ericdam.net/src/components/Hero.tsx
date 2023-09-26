@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './Hero.css';
 import Image from 'rc-image';
+import IconList from './IconList.tsx';
 import hero_image from '/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/eric_1.png';
 
 export const Hero = () => {
@@ -12,12 +13,18 @@ export const Hero = () => {
             Hi my name is
         </div>
         <div className="hero-name-text">
-            <b>Eric Dam.</b>
+            <b>Eric Dam</b>
+            </div>
+            <div className='hero-bio'>
+              Aspiring Software Engineer with 2 YOE
             </div>
             {/* <div className ="hero-blurb-text">
           I'm a self-improver, learner and many other things, <br /> but most importantly a <span style={{ color: '#FFFF'}}><mark> do-er. </mark></span>
           </div> */}
-          <span className='underline'>Content coming soon</span>
+          {/* <span className='underline'>Content coming soon</span> */}
+          <div>
+          <IconList />
+          </div>
         <div>
         </div>
         </div>

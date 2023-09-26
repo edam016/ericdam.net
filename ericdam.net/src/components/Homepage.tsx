@@ -8,7 +8,7 @@ import './Homepage.css';
 const Homepage = () => {
   return (
     <div >
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="elementToFadeInAndOut">
         <Hero/>
         {/* <Aboutme />

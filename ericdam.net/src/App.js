@@ -17,7 +17,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          {loading ? <PreLoading loading={loading} /> : <Homepage />}
+          {/* {loading ? <PreLoading loading={loading} /> : <Homepage />} */}
+          <Homepage />
       </header>
     </div>
   );
