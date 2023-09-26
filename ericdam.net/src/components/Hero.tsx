@@ -16,7 +16,7 @@ export const Hero = () => {
             <b>Eric Dam</b>
             </div>
             <div className='hero-bio'>
-              Aspiring Software Engineer with 2 YOE
+              Aspiring FullStack SWE with 2 YOE
             </div>
             {/* <div className ="hero-blurb-text">
           I'm a self-improver, learner and many other things, <br /> but most importantly a <span style={{ color: '#FFFF'}}><mark> do-er. </mark></span>
