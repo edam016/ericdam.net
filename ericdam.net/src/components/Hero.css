@@ -65,3 +65,9 @@ mark {
     padding-left:10px;
     padding-right:8px;
   }
+
+  @media (min-width: 768px) {
+    .non-mobile-image {
+      display: block; /* or any other styles you want */
+    }
+  }

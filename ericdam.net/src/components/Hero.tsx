@@ -6,6 +6,17 @@ import IconList from './IconList.tsx';
 import hero_image from '/Users/pacpl/Desktop/ericdam.net/ericdam.net/src/assets/eric_1.png';
 
 export const Hero = () => {
+  const [isNonMobile, setIsNonMobile] = useState(window.innerWidth >= 768);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsNonMobile(window.innerWidth >= 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div className="hero-container">
@@ -37,7 +48,9 @@ export const Hero = () => {
         <div>
         </div>
         </div>
-        <Image src={hero_image} height={500}/>  
+        {isNonMobile ? (
+          <Image src={hero_image} height={500}/>  
+      ) : null}
     </div>
   )
 }
