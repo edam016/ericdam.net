@@ -2,7 +2,7 @@
 .hero-container{
     display: flex;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     padding: 0% 5% 0% 5%;
     align-items: center;
     height: 50vh;
@@ -10,6 +10,7 @@
 }
 
 .hero-text-container{
+    text-align: center;
     display:block;
     font-size: 60px;
     padding: 50px;
@@ -18,9 +19,11 @@
 }
 
 .hero-intro-text{
+    
     font-size: 50px;
     color: #404040;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 2px;
 }
 
 .hero-name-text{
@@ -45,6 +48,7 @@
     text-align: center;
     color: 	#404040;
     font-size: 15px;
+    padding-left: 8px;
 }
 
 .hero_image{
