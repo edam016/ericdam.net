@@ -4,7 +4,7 @@ import { GitHub, Feed,  Instagram, LinkedIn } from '@mui/icons-material';
 
 export const IconList = () => {
   const openPdfInNewTab = () => {
-    window.open('/EricDamNewGrad2023US.pdf');
+    window.open('/EricDam2024Resume.pdf');
   };
 
   return (
